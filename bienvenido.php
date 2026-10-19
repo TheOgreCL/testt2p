@@ -21,6 +21,6 @@ $correo = $_SESSION["correo"];
     <p>Has iniciado sesión con: 
         <?= htmlspecialchars($correo, ENT_QUOTES, 'UTF-8') ?>
     </p>
-
+    <a href="logout.php">Cerrar sesión</a>
 </body>
 </html>
